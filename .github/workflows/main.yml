@@ -6,5 +6,6 @@ jobs:
   Ubuntu:
     runs-on: ubuntu-latest
     steps:
-    - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+    - name: Debugging with tmate
+      uses: mxschmitt/action-tmate@v1.0.2
+
